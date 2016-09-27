@@ -5,9 +5,8 @@
  * A pure JavaScript lazy image loader.
  * 
  * Usage:
- * Put all the content of you "src" attribute of the "img" tag into the "data-url" attribute. 
- * For safety, on page load the "src" attribute of an image with an "data-url" attribute is removed.
- * Now, if the image gets visible on screen its "src" will be set and "data-url" removed.*/ 
+ * Replace the "src" attribute name of the "img" tag with "data-url", 
+ * the content stays the same. Now these images will be lazy loaded.*/ 
 
 if (window.addEventListener) {
   window.addEventListener('load', start, false);
