@@ -2,7 +2,7 @@
  * Manuel T. Schrempf
  * 
  * Description:
- * A pure JavaScript lazy image loader.
+ * A pure JavaScript lazy image loader supporting window resize and scroll.
  * 
  * Usage:
  * Replace the "src" attribute name of the "img" tag with "data-url", 
